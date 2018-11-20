@@ -19,12 +19,12 @@
   margin-top: 11px;
 }
 
-.translation-line {
+.translation-item {
   display: block;
   line-height: 1.50;
 }
 
-a {
+.translation-item a {
   text-decoration: none;
   color: teal;
 }

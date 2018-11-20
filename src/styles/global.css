@@ -7,6 +7,7 @@
 }
 
 body {
+  margin: 0;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.6;
@@ -22,17 +23,23 @@ button,
 }
 
 .wrapper {
-  position: relative;
   height: 100%;
+  margin: 0 1rem 0;
 }
 
-/* 1st breakpoint at min 645px wide */
 .parent-container {
-  margin: 1%;
-  padding-bottom: 10%; /*not sure if in use */
+  margin-top: 1rem;
+  padding-top: 3rem;
+  padding-bottom: 100%;
+  height: 100%;
+  position: relative;
+  background-color: mintcream;
+
+
+  /* padding-bottom: 10%;
   position: relative;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;  */
   background-color: mintcream;
   height: 80vh;
   padding: 0 calc(4px * 3);
@@ -66,31 +73,6 @@ button,
   border: none;
 }
 
-/* working but not responsive */
-/* #search-button {
-  position: relative;
-  z-index: 1;
-  left: -25px;
-  top: 1px;
-  color: #7B7B7B;
-  cursor:pointer;
-  width: 0;
-  box-sizing: content-box;
-  display: inline;
-  overflow: visible;
-}
-
-#search-allergen-input {
-  -webkit-box-flex: 1;
-  flex-grow: 1;
-  width: 90%;
-  height: 100%;
-  background: white;
-  border: none;
-  color: black;
-  display: inline;
-} */
-
 @media screen and (max-width: 767px) {
   .search-allergen {
     height: 48px;
@@ -107,25 +89,23 @@ i {
   padding-right: 15px;
 }
 
-/* SMALLEST WIDTH */
+/* Mobile */
 @media screen and (max-width: 480px) {
   .parent-container {
-    padding-top: 50px;
-    padding-bottom: 24px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 3rem;
+  }
+}
+/* Tablet */
+@media screen and (min-width: 767px) {
+  .parent-container {
+    padding-top: 5rem;
+  }
+}
+/* Desktop */
+@media screen and (min-width: 768px) {
+  .parent-container {
     height: 100%;
   }
-}
-/* FIRST BREAKPOINT */
-@media screen and (min-width: 481px) {
-  .parent-container {
-    padding-top: 80px;
-    padding-bottom: 64px;
-  }
-}
-/* SECOND BREAKPOINT */
-@media screen and (min-width: 760px) {
   .child-container {
     width: 66.66667%;
   }
