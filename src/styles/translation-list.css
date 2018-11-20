@@ -1,0 +1,30 @@
+/* Styles for listing the translations */
+
+.translation-item {
+  margin: 5px;
+  padding: 10px;
+  background-color: beige;
+  font-size: large;
+}
+
+.translation-item p {
+  margin: 0px;
+}
+
+.language-name {
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: 700;
+  display: block;
+  margin-top: 11px;
+}
+
+.translation-line {
+  display: block;
+  line-height: 1.50;
+}
+
+a {
+  text-decoration: none;
+  color: teal;
+}

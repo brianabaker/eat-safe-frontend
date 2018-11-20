@@ -1,0 +1,27 @@
+/* Styles for the main home page */
+
+#title{
+  font-size: 25px;
+  line-height: 1.25;
+  font-weight: 700;
+  display: block;
+}
+
+#header {
+  margin-top: 16px;
+  margin-bottom: 0px;
+  font-size: 15px;
+  display: block;
+}
+
+#sub-header{
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+#search-button {
+  font-size: 187%;
+  color: grey;
+  border: none;
+  cursor: pointer;
+}
