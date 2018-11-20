@@ -30,14 +30,8 @@ button,
 .parent-container {
   margin-top: 1rem;
   padding-top: 3rem;
-  padding-bottom: 100%;
   height: 100%;
-  position: relative;
   background-color: mintcream;
-
-
-  /* padding-bottom: 10%;
-  position: relative;
   margin-left: auto;
   margin-right: auto;  */
   background-color: mintcream;
@@ -96,15 +90,16 @@ i {
   }
 }
 /* Tablet */
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 481px) & (max-width: 767px){
   .parent-container {
     padding-top: 5rem;
+    height: 40vh;
   }
 }
 /* Desktop */
 @media screen and (min-width: 768px) {
   .parent-container {
-    height: 100%;
+    padding-top: 5rem;
   }
   .child-container {
     width: 66.66667%;
